@@ -139,3 +139,21 @@ section > div.contents > div.email {
     line-height: 19px;
     color: black;
 }
+
+section > div.contents > div.innercontent{
+    position: absolute;
+    left: 58px;
+    bottom: 74px;
+    width: 722px;
+    height: 408px;
+    background: black;
+}
+section > div.contents > div.innercontent > div.rec1{
+    position: absolute;
+    width: 228px;
+    height: 408px;
+    left: 58px;
+    bottom: 74px;
+    border-radius: 13px;
+    background: #FFCDCD;
+}
