@@ -142,18 +142,88 @@ section > div.contents > div.email {
 
 section > div.contents > div.innercontent{
     position: absolute;
+    display: inline;
     left: 58px;
     bottom: 74px;
     width: 722px;
     height: 408px;
-    background: black;
+    
 }
-section > div.contents > div.innercontent > div.rec1{
-    position: absolute;
+section > div.contents > div.innercontent > div.rec{
     width: 228px;
     height: 408px;
-    left: 58px;
-    bottom: 74px;
     border-radius: 13px;
+    float: left;
+}
+section > div.contents > div.innercontent > div.rec.first{
     background: #FFCDCD;
+}
+
+section > div.contents > div.innercontent > div.rec.second{
+    background: #FFC7BB;
+    margin-left: 19px;
+    margin-right: 19px;
+
+}
+
+section > div.contents > div.innercontent > div.rec.third{
+
+    background: #E3ADC2;
+}
+
+section > div.contents > div.innercontent > div.rec > img{
+    padding: 88px 64px 51px 64px;
+}
+section > div.contents > div.innercontent > div.rec > div.text1,
+section > div.contents > div.innercontent > div.rec > div.text4,
+section > div.contents > div.innercontent > div.rec > div.text7{
+    margin-left: 21px;
+    margin-bottom: 13px;
+
+    width: 166px;
+    height: 24px;
+
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+section > div.contents > div.innercontent > div.rec > div.text2,
+section > div.contents > div.innercontent > div.rec > div.text5,
+section > div.contents > div.innercontent > div.rec > div.text8{
+    margin-left: 21px;
+    margin-bottom: 7px;
+
+    width: 186px;
+    height: 49px;
+
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: black;
+}
+section > div.contents > div.innercontent > div.rec > div.text3,
+section > div.contents > div.innercontent > div.rec > div.text6{
+    padding: 6px 16px 5px 16px;
+    width: 76px;
+    height: 18px;
+    margin-left: 22px;
+    background: #FFFFFF;
+    border-radius: 13px;
+
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: black;
+}
+section > div.contents > div.innercontent > div.rec > div.text3 > span,
+section > div.contents > div.innercontent > div.rec > div.text6 > span{
+    color: #C6004D;
 }
