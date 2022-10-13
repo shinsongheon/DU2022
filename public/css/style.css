@@ -7,7 +7,6 @@ body{
     margin: 0px;
     background: #c6004d ;
 }
-
 header{
     width: 1080px;
     height: 80px;
@@ -16,50 +15,98 @@ header{
 
 header > div.title{
     position: absolute;
-    
+    left: 30px;
+    top: 22px;
     width: 240px;
     height: 36px;
-
-    left : 30px;
-    top : 22px;
-
-    font-family: 'S-Core Dream';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
     line-height: 36px;
 
-    color: #ffff;
-}
-
-header > div.title > span,
-header > div.user > span
-{
-    font-weight: 300;
+    font-family: 'S-Core Dream';
+    font-weight: 600;
+    font-size: 26px;
+    color: #FFFFFF;
 }
 header > img{
-    position: absolute;
-    top: 15px;
+    position: relative;
     left: 285px;
+    top: 15px;
     width: 190px;
     height: 50px;
 }
+
 header > div.user{
     position: absolute;
-    top: 25px;
     right: 30px;
+    top: 25px;
     width: 104px;
     height: 30px;
-    font-family: 'S-Core Dream';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
 
+    font-family: 'S-Core Dream';
+    font-weight: 600;
+    font-size: 23px;
+    font-style: normal;
     color: #FFFFFF;
+}
+
+header > div.title > span,
+header > div.user > span{
+    font-weight: 200;
 }
 
 section.main{
     width: 1080px;
     height: 640px;
+    position: relative;
+}
+
+section > div.menu{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    width: 250px;
+    height: 640px;
+    padding-top: 32px;
+    
+    box-sizing: border-box;   
+    z-index: 1; 
+}
+
+section > div.menu > div.menu-item{
+    width: 250px;
+    height: 69px;
+    margin-bottom: 9px;
+
+}
+section > div.contents {
+    position: relative;
+    float: right;
+    width: 830px;
+    height: 640px;
+    right: 0px;
+    bottom: 0px;
+
+    background: white;
+    border-radius: 30px 0px 0px 0px;
+}
+
+section > div.menu > div.menu-item > a.inner{
+    display: block;
+    text-decoration: none;
+    width: 235px;
+    height: 72px;
+
+    box-sizing: border-box;
+    border-radius: 30px 0px;
+    margin-left: 30px;
+    padding: 20px 82px 23px 30px;
+    
+
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+section > div.menu > div.menu-item > a.inner.active{
+    background:#7d7d7d;
 }
